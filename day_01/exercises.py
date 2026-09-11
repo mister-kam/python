@@ -51,3 +51,44 @@ scores = scores + [95]
 print(scores)
 print(scores_copy)
 print(scores is scores_copy)
+##################################################
+temperature = 75
+
+if temperature > 70:
+    print("Warm")
+else:
+    print("Cool")
+#################################################
+
+score = 87
+
+if score >= 90:
+    print("Excellent")
+elif score >= 80:
+    print("Good")
+else:
+    print("Needs improvement")
+
+
+message = "outside"
+
+
+def set_message():
+    message = "inside"
+    print(message)
+
+
+set_message()
+
+print(message)
+
+
+numbers = [1, 2, 3]
+other = numbers
+numbers.append(4)
+third = numbers + [5]
+print(numbers)
+print(other)
+print(third)
+print(numbers is other)
+print(numbers is third)
