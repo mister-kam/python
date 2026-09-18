@@ -1,0 +1,19 @@
+Q1
+[7,9]
+
+Q2
+"b":20
+
+Q3
+x
+y
+z
+
+Q4
+values = [4, 15, 8, 23, 6, 42]
+new_values = {v for v in values if v > 5 and v < 30}
+print(new_values)
+
+Q5
+1 "x"
+2 "y"
